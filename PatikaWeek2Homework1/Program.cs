@@ -44,17 +44,16 @@ Console.Write("\n--------------------------------\n ");
 
 //for uygulama 5
 Console.WriteLine("\n\n 1 ile 120 arasındaki tek ve çift sayıların toplamları\n");
-int evenNumbers = 0;
-int oddNumbers = 0;
+int evenNumberSum = 0;
+int oddNumberSum = 0;
 for (int i = 1; i <= 120; i++)
 {
     if (i % 2 == 0)
-        evenNumbers += i;
+        evenNumberSum += i;
     else
 
-        oddNumbers += i;
-
+        oddNumberSum += i;
 }
-Console.WriteLine($"Tek sayıların toplamı...={oddNumbers}");
-Console.WriteLine($"Çift sayıların toplamı...={evenNumbers}");
+Console.WriteLine($"Tek sayıların toplamı...={oddNumberSum}");
+Console.WriteLine($"Çift sayıların toplamı...={evenNumberSum}");
 
