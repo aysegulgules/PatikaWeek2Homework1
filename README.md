@@ -1,6 +1,6 @@
 <span style="font-size:0.5em;"># PatikaWeek2Homework1
 
-for uygulamaları:
+"for" uygulamaları:
 
 1 -> Konsol ekranına 10 kere "Kendime inanıyorum, ben bu yazılım işini hallederim!" yazdırınız.
 
